@@ -1,0 +1,155 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 13, 2018, 12:31:20 AM
+    Author     : Jerry
+*/
+
+ul 
+{
+    list-style: none;
+    color: white;
+    text-align: center;
+    float: left;
+}
+ul li
+{
+    float: left;
+    color: white;
+    padding: 5px 15px;
+}
+ul li a
+{
+    color: white;   
+}
+a:hover
+{
+    color: #acacac;
+}
+
+.myForm {
+    background-color: white; 
+    margin: 30px 50px 50px 50px; 
+    padding: 30px; width: 28%; 
+    border-radius: 5px; 
+    float: right;
+    font-size: 0.8em;
+    border: 1px solid #ccc;
+}
+
+.myForm * {
+    box-sizing: border-box;
+}
+
+.myForm fieldset {
+    border: none;
+    padding: 0;
+}
+
+.myForm legend,
+.myForm label {
+    padding: 0;
+    font-weight: bold;
+}
+
+.myForm label.choice {
+    font-size: 0.9em;
+    font-weight: normal;
+}
+
+.myForm input[type="text"],
+.myForm input[type="tel"],
+.myForm input[type="email"],
+.myForm input[type="datetime-local"],
+.myForm select,
+.myForm textarea {
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 0.9em;
+    padding: 0.3em;
+}
+
+.myForm textarea {
+    height: 100px;
+}
+
+.myForm button {
+    padding: 1em;
+    border-radius: 0.5em;
+    background: #eee;
+    border: none;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+.myForm button:hover {
+    background: #ccc;
+    cursor: pointer;
+}
+.content
+{
+    text-align: center;
+    color: #878787;
+    background: #333333;
+    padding-top: 115px;
+}
+.content .box
+{
+    height: 358px;
+    width: 276px;
+    border: 4px solid;
+    background: #707070;
+    margin-left: 38px;
+    margin-top: 130px;
+    float: left;
+}
+.content1
+{
+    margin-top: 400px; 
+    text-align: center;
+    background: #333333;
+    padding-top: 115px;
+    color: white;
+}
+.content2
+{
+    margin-top: 400px; 
+    text-align: center;
+    background: #333333;
+    color: white;
+}
+.content3
+{
+    background-color: #f2723a;
+    width: 102%;
+    margin-left:-13px;
+    text-align: center;
+    color:white;
+    padding: 100px;
+}
+
+.content4
+{
+    background-color: white;
+    width: 102%;
+    margin-left:-13px;
+    padding-top: 30px;
+    height: 200px;
+}
+.footer
+{
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-top: 40px;
+    height: 360px;
+    background-color: #222222;
+}
+.footer .col-sm-4
+{
+    background-color: #222222;
+}
